@@ -5,11 +5,11 @@ module.exports = {
       name: `Joe Vaughn`,
       summary: `Oregon based front-end web developer`,
     },
-    description: `A blog to document projects that I am working on.`,
-    siteUrl: `https://joevaughn.netlify.app/`
-    /*social: {
-      twitter: `kylemathews`,
-    },*/
+    description: `A blog to document projects that I am working onoe.`,
+    siteUrl: `https://joevaughn.netlify.app/`,
+    social: {
+      /*twitter: `kylemathews`*/,
+    },
   },
   plugins: [
     {
@@ -60,8 +60,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Joe Vaughn Blog`,
+        short_name: `Joe Vaughn`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

@@ -12,6 +12,9 @@ Blog template strip down checklist
     4.site url
     5.social
   b. depending on starter you use you might have different objects in the array. Make changes as necessary.
+  c. Make changes in gatsby-plugin-manifest
+    1.name
+    2.short name
 
   <!-- End of Joe Vaughn Blog README checklist  -->
 
