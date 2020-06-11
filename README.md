@@ -15,12 +15,11 @@ Blog template strip down checklist
   c. Make changes in gatsby-plugin-manifest
     1.name
     2.short name
+  D.Change Layout.js
+    1.Change text if footer to Created by YOUR NAME, or what you want it to say. Add your own personal website/portfolio to the 'a' tag in the Footer element
 
   <!-- End of Joe Vaughn Blog README checklist  -->
 
-Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
-
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
 ## 🚀 Quick start
 

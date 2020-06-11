@@ -32,7 +32,7 @@ const Layout = ({ location, title, children }) => {
       <h3
         style={{
           fontFamily: `Montserrat, sans-serif`,
-          marginTop: 0,
+          marginTop: 1,
         }}
       >
         <Link
@@ -53,18 +53,18 @@ const Layout = ({ location, title, children }) => {
         marginLeft: `auto`,
         marginRight: `auto`,
         maxWidth: rhythm(24),
-        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        padding: `${rhythm(1.5)} ${rhythm(3/4)}`,
       }}
     >
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()}, Created by 
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <a href="https://codepen.io/Olethros">Joe Vaughn</a>
       </footer>
     </div>
   )
 }
-
+//Add your portfolio Website to <a> tag above
 export default Layout
