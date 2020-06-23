@@ -41,4 +41,3 @@ description: This is the description for the checklist
     a. Change text in footer to Created by YOUR NAME, or what you want it to say. Add your own personal website/portfolio to the 'a' tag in the 
     Footer element
 
-![ Gatsby Logo ](../../../content/assets/profile-pic.jpg)

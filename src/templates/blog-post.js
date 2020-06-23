@@ -10,7 +10,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
-
+/******  TO DO: Add and image component to this page           */
   return (
     <Layout location={location} title={siteTitle}>
       <SEO

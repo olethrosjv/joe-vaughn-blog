@@ -6,4 +6,8 @@ description: Summary of using images in Markdown
 
 ## Using Images in Markdown
 
+You can add "inline" images to Markdown pages with the following code.
+
     ![ Gatsby Logo ](../../../content/assets/profile-pic.jpg)
+
+ ![ Gatsby Logo ](../../../content/assets/gatsby-icon.png)
