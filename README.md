@@ -22,7 +22,7 @@ Blog template strip down checklist
 
 
 ## 🚀 Quick start
-
+![ Gatsby Logo ]('../content/assets/gatsby-icon')
 ## 🧐 What's inside?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
