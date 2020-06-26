@@ -4,7 +4,7 @@ date: "2020-06-22T22:40:32.169Z"
 description: Summary of using images in Markdown
 ---
 
-## Using Images in Markdown
+## How to Insert Images in Markdown Files
 
 You can add "inline" images to Markdown pages with the following code.
 

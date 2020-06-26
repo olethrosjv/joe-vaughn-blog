@@ -3,6 +3,9 @@ import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
 
+//import { RoughNotation, RoughNotationGroup  } from "react-rough-notation";
+//for Rough Notation multi uses
+
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   let header
@@ -57,11 +60,15 @@ const Layout = ({ location, title, children }) => {
       }}
     >
       <header>{header}</header>
+     
       <main>{children}</main>
       <footer>
         © {new Date().getFullYear()}, Created by 
         {` `}
+        
         <a href="https://codepen.io/Olethros">Joe Vaughn</a>
+      
+        
       </footer>
     </div>
   )
