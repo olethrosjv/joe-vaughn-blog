@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
 
-//import { RoughNotation, RoughNotationGroup  } from "react-rough-notation";
-//for Rough Notation multi uses
+import { RoughNotation } from "react-rough-notation";
+
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -65,8 +65,10 @@ const Layout = ({ location, title, children }) => {
       <footer>
         © {new Date().getFullYear()}, Created by 
         {` `}
+        <RoughNotation type="circle" color="blue" show={true}>
+        <a href="https://codepen.io/Olethros" style={{ textDecoration: 'none', padding: rhythm(3/4) }} >Joe Vaughn</a>
+        </RoughNotation>
         
-        <a href="https://codepen.io/Olethros">Joe Vaughn</a>
       
         
       </footer>
